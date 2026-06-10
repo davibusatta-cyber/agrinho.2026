@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Raízes do Futuro - Conservação do Solo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Botão de acessibilidade fixo -->
+    <div class="botao-acessibilidade" id="botaoAcessibilidade">
+        <button id="btnAumentarFonte" aria-label="Aumentar fonte">A+</button>
+        <button id="btnDiminuirFonte" aria-label="Diminuir fonte">A-</button>
+        <button id="btnAltoContraste" aria-label="Ativar alto contraste">🌓 Contraste</button>
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo-icon">🌱</div>
+            <div class="logo-texto">
+                <h1>Raízes do Futuro</h1>
+                <p>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">🏠 Início</a></li>
+                <li><a href="#sobre">📘 Sobre</a></li>
+                <li><a href="#problema">⚠️ Problema</a></li>
+                <li><a href="#solucoes">🌿 Soluções</a></li>
+                <li><a href="#avaliacao">📋 Avaliação</a></li>
+                <li><a href="#simulador">🧮 Simulador</a></li>
+                <li><a href="#dicas">💡 Dicas</a></li>
+                <li><a href="#conclusao">🌎 Conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Início -->
+        <section id="inicio">
+            <article>
+                <h2>🌍 Bem-vindo ao Raízes do Futuro</h2>
+                <p>Nosso site foi criado para conscientizar sobre a importância da <strong>conservação do solo</strong> e incentivar práticas sustentáveis que garantam alimentos para as futuras gerações.</p>
+                <div class="citacao-destaque">
+                    <p>"Cuidar do solo hoje é garantir a colheita de amanhã" 🌾</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seção Sobre o tema -->
+        <section id="sobre">
+            <h2>📘 Sobre o tema</h2>
+            <article>
+                <p>A conservação do solo é essencial para a produção de alimentos, a preservação da água e o equilíbrio dos ecossistemas. Cuidar do solo significa garantir recursos naturais para as gerações atuais e futuras.</p>
+                <p>O projeto <strong>Raízes do Futuro</strong> nasceu com a ideia de que as ações realizadas no presente são a base para construir um futuro melhor.</p>
+                <div class="icones-natureza">
+                    <span>🌱</span> <span>🌍</span> <span>💧</span> <span>🪴</span> <span>🌾</span>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seção Problema ambiental -->
+        <section id="problema">
+            <h2>⚠️ Problema ambiental: degradação do solo</h2>
+            <article>
+                <p>A degradação do solo acontece por causas como:</p>
+                <ul>
+                    <li>🌪️ <strong>Erosão</strong> - perda da camada fértil pela água ou vento</li>
+                    <li>🔥 <strong>Queimadas e desmatamento</strong> - destruição da vegetação</li>
+                    <li>🧪 <strong>Uso excessivo de agrotóxicos</strong> - contaminação do solo</li>
+                    <li>🏭 <strong>Compactação do solo</strong> - causada por máquinas pesadas</li>
+                </ul>
+                <div class="alerta">
+                    <p>📊 Dado importante: Estima-se que 33% dos solos do mundo estão degradados!</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seção Soluções sustentáveis -->
+        <section id="solucoes">
+            <h2>🌿 Soluções sustentáveis</h2>
+            <article>
+                <p>Algumas práticas que ajudam a conservar o solo:</p>
+                <div class="grid-solucoes">
+                    <div class="card-solucao">✅ Plantio direto na palha</div>
+                    <div class="card-solucao">🔄 Rotação de culturas</div>
+                    <div class="card-solucao">⛰️ Terraceamento e curvas de nível</div>
+                    <div class="card-solucao">🧪 Adubação orgânica</div>
+                    <div class="card-solucao">🌳 Reflorestamento de áreas degradadas</div>
+                    <div class="card-solucao">💧 Irrigação controlada</div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seção Avaliação de hábitos (funcionalidade principal) -->
+        <section id="avaliacao">
+            <h2>📋 Avaliação de Hábitos Ambientais</h2>
+            <article>
+                <p>Responda às perguntas abaixo e descubra seu nível de consciência ambiental sobre conservação do solo.</p>
+                <form id="formAvaliacao">
+                    <!-- Pergunta 1 -->
+                    <div class="pergunta">
+                        <p><strong>1. Você separa o lixo orgânico do reciclável em casa?</strong></p>
+                        <label><input type="radio" name="p1" value="3"> Sempre</label>
+                        <label><input type="radio" name="p1" value="2"> Às vezes</label>
+                        <label><input type="radio" name="p1" value="1"> Nunca</label>
+                    </div>
+                    <!-- Pergunta 2 -->
+                    <div class="pergunta">
+                        <p><strong>2. Você evita desperdiçar alimentos?</strong></p>
+                        <label><input type="radio" name="p2" value="3"> Sempre</label>
+                        <label><input type="radio" name="p2" value="2"> Às vezes</label>
+                        <label><input type="radio" name="p2" value="1"> Nunca</label>
+                    </div>
+                    <!-- Pergunta 3 -->
+                    <div class="pergunta">
+                        <p><strong>3. Você sabe o que é erosão do solo e como evitá-la?</strong></p>
+                        <label><input type="radio" name="p3" value="3"> Sim, conheço e pratico</label>
+                        <label><input type="radio" name="p3" value="2"> Sei o que é, mas não pratico</label>
+                        <label><input type="radio" name="p3" value="1"> Não conheço</label>
+                    </div>
+                    <!-- Pergunta 4 -->
+                    <div class="pergunta">
+                        <p><strong>4. Você apoia ou pratica a agricultura sustentável (orgânica, sem agrotóxicos)?</strong></p>
+                        <label><input type="radio" name="p4" value="3"> Sim, sempre que possível</label>
+                        <label><input type="radio" name="p4" value="2"> Às vezes</label>
+                        <label><input type="radio" name="p4" value="1"> Não</label>
+                    </div>
+                    <!-- Pergunta 5 -->
+                    <div class="pergunta">
+                        <p><strong>5. Você planta árvores ou participa de ações de reflorestamento?</strong></p>
+                        <label><input type="radio" name="p5" value="3"> Sim, regularmente</label>
+                        <label><input type="radio" name="p5" value="2"> Já participei alguma vez</label>
+                        <label><input type="radio" name="p5" value="1"> Nunca participei</label>
+                    </div>
+
+                    <button type="button" id="btnVerResultado">🌱 Ver Resultado</button>
+                </form>
+
+                <div id="resultadoAvaliacao" class="resultado"></div>
+            </article>
+        </section>
+
+        <!-- Seção Simulador de economia de solo (funcionalidade adicional) -->
+        <section id="simulador">
+            <h2>🧮 Simulador de Economia de Solo</h2>
+            <article>
+                <p>Descubra quantos metros quadrados de solo fértil você pode preservar adotando práticas sustentáveis!</p>
+                <div class="simulador-container">
+                    <label for="areaPlantio">🌾 Área de plantio (em m²):</label>
+                    <input type="number" id="areaPlantio" placeholder="Ex: 1000" value="1000">
+                    
+                    <label for="tecnicaSustentavel">🌿 Escolha a técnica sustentável:</label>
+                    <select id="tecnicaSustentavel">
+                        <option value="0.7">Plantio direto na palha (economiza 70% do solo)</option>
+                        <option value="0.6">Rotação de culturas (economiza 60% do solo)</option>
+                        <option value="0.5">Terraceamento (economiza 50% do solo)</option>
+                        <option value="0.4">Adubação orgânica (economiza 40% do solo)</option>
+                    </select>
+                    
+                    <button id="btnCalcularEconomia">📊 Calcular economia de solo</button>
+                    
+                    <div id="resultadoEconomia" class="resultado-economia">
+                        <p>Preencha os dados e clique em calcular!</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seção Dicas de preservação do solo -->
+        <section id="dicas">
+            <h2>💡 Dicas de preservação do solo</h2>
+            <article>
+                <div class="grid-dicas">
+                    <div class="card-dica">
+                        <span class="dica-icone">🌱</span>
+                        <p>Plante árvores nativas em áreas degradadas</p>
+                    </div>
+                    <div class="card-dica">
+                        <span class="dica-icone">💧</span>
+                        <p>Evite queimar restos de culturas – transforme em adubo</p>
+                    </div>
+                    <div class="card-dica">
+                        <span class="dica-icone">🚜</span>
+                        <p>Use técnicas como o plantio direto e rotação de culturas</p>
+                    </div>
+                    <div class="card-dica">
+                        <span class="dica-icone">🧑‍🌾</span>
+                        <p>Prefira produtos orgânicos e incentive a agricultura familiar</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seção Conclusão -->
+        <section id="conclusao">
+            <h2>🌎 Conclusão</h2>
+            <article>
+                <p>Cuidar do solo é cuidar da vida. Com pequenas atitudes no presente, construímos um futuro sustentável para todos. O <strong>Raízes do Futuro</strong> convida você a fazer parte dessa mudança!</p>
+                <div class="frase-final">
+                    <p>"Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Davi Farias Busatta | Projeto Agrinho 2026 | Raízes do Futuro</p>
+        <p>🌱 Conservação do solo para um futuro sustentável 🌍</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
